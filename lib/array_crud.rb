@@ -24,7 +24,8 @@ def remove_element_from_start_of_array(array)
   Sonic_Characters.shift
 end
 
-index_number=2
+array = ["wow", "I", "am", "really", "learning", "arrays!"]
+index_number = 2
 
 def retrieve_element_from_index(array, index_number)
   Sonic_Characters[index_number]
