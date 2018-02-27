@@ -24,8 +24,10 @@ def remove_element_from_start_of_array(array)
   Sonic_Characters.shift
 end
 
+index_number=2
+
 def retrieve_element_from_index(array, index_number)
-  Sonic_Characters[2]
+  Sonic_Characters[index_number]
 end
 
 def retrieve_first_element_from_array(array)
